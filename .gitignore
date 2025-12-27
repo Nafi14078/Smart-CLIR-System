@@ -1,0 +1,54 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+clir_env/
+venv/
+.env/
+
+# =========================
+# PyCharm / IDE
+# =========================
+.idea/
+*.iml
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs & temp files
+# =========================
+*.log
+*.tmp
+
+# =========================
+# Data files (VERY IMPORTANT)
+# =========================
+data/raw/
+
+# =========================
+# Model & index artifacts
+# =========================
+*.pkl
+*.pt
+*.bin
+*.h5
+
+# =========================
+# HuggingFace / Transformers cache
+# =========================
+.cache/
+transformers_cache/
+
+
+# =========================
+# Jupyter (if used later)
+# =========================
+.ipynb_checkpoints/

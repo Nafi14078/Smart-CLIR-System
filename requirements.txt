@@ -1,0 +1,12 @@
+requests
+beautifulsoup4
+langdetect
+sentence-transformers
+rank-bm25
+rapidfuzz
+numpy
+pandas
+scikit-learn
+matplotlib
+transformers
+torch
