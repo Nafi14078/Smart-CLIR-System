@@ -52,3 +52,8 @@ transformers_cache/
 # Jupyter (if used later)
 # =========================
 .ipynb_checkpoints/
+
+# =========================
+# Planning documents (local only)
+# =========================
+plan/
