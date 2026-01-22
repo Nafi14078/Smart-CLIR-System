@@ -15,7 +15,7 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 }
 
-SAVE_DIR = Path("data/processed")
+SAVE_DIR = Path("../processed")
 SAVE_DIR.mkdir(parents=True, exist_ok=True)
 
 EN_FILE = SAVE_DIR / "english_docs.json"

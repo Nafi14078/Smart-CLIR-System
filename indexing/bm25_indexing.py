@@ -8,9 +8,9 @@ from tqdm import tqdm
 # =========================
 # Paths
 # =========================
-ENGLISH_PATH = "data/processed/english_docs.json"
-BANGLA_PATH = "data/processed/bangla_docs.json"
-OUTPUT_DIR = "data/index"
+ENGLISH_PATH = "../data/processed/english_docs.json"
+BANGLA_PATH = "../data/processed/bangla_docs.json"
+OUTPUT_DIR = "../data/index"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
