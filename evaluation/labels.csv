@@ -1,60 +1,61 @@
 query,doc_url,language,relevant,annotator
 
-Bangladesh economy growth,https://www.dhakatribune.com/business/economy,en,yes,Ashfak
-Bangladesh economy growth,https://www.dhakatribune.com/business/economy/24852/export-to-us-sees-4.70pc-growth-in-july-feb,en,yes,Ashfak
-Bangladesh economy growth,https://www.dhakatribune.com/business/economy/25196/the-perils-of-the-retail-investors-in-bangladesh,en,yes,Ashfak
-Bangladesh economy growth,https://www.dhakatribune.com/business/economy/24753/hold-dialogue-resolve-crisis-fbcci,en,yes,Ashfak
-Bangladesh economy growth,https://www.dhakatribune.com/business/commerce/24963/swiss-business-delegation-due-sunday,en,yes,Ashfak
-Bangladesh economy growth,https://www.dhakatribune.com/opinion/op-ed/25801/there-will-be-blood,en,no,Ashfak
-Bangladesh economy growth,https://www.dhakatribune.com/opinion/op-ed/401315/running-on-empty,en,no,Ashfak
-Bangladesh economy growth,https://www.dhakatribune.com/business/economy/25567/spain-sinks-deeper-into-recession-in-first-quarter,en,no,Ashfak
-Bangladesh economy growth,https://www.dhakatribune.com/opinion/op-ed/25119/time-for-the-youth-to-take-the-reins,en,no,Ashfak
-Bangladesh economy growth,https://www.dhakatribune.com/opinion/op-ed/25479/intellectual-property-rights-in-bangladesh,en,yes,Ashfak
+Bangladesh economy growth,https://www.dhakatribune.com/business/economy,en,yes,nafi
+Bangladesh economy growth,https://www.dhakatribune.com/business/economy/24753/hold-dialogue-resolve-crisis-fbcci,en,yes,nafi
+Bangladesh economy growth,https://www.dhakatribune.com/business/economy/24852/export-to-us-sees-4.70pc-growth-in-july-feb,en,yes,nafi
+Bangladesh economy growth,https://www.dhakatribune.com/opinion/op-ed/25801/there-will-be-blood,en,no,nafi
 
+বাংলাদেশ অর্থনীতি প্রবৃদ্ধি,https://www.dhakatribune.com/business/economy,en,yes,nafi
+বাংলাদেশ অর্থনীতি প্রবৃদ্ধি,https://www.dhakatribune.com/business/economy/25196/the-perils-of-the-retail-investors-in-bangladesh,en,yes,nafi
+বাংলাদেশ অর্থনীতি প্রবৃদ্ধি,https://www.dhakatribune.com/opinion/op-ed/401315/running-on-empty,en,no,nafi
 
-বাংলাদেশ অর্থনীতি প্রবৃদ্ধি,https://www.prothomalo.com/business, bn,yes,Ashfak
-বাংলাদেশ অর্থনীতি প্রবৃদ্ধি,https://www.prothomalo.com/business/economy, bn,yes,Ashfak
-বাংলাদেশ অর্থনীতি প্রবৃদ্ধি,https://www.prothomalo.com/business/budget, bn,yes,Ashfak
-বাংলাদেশ অর্থনীতি প্রবৃদ্ধি,https://www.prothomalo.com/business/market, bn,yes,Ashfak
-বাংলাদেশ অর্থনীতি প্রবৃদ্ধি,https://www.prothomalo.com/opinion, bn,no,Ashfak
-বাংলাদেশ অর্থনীতি প্রবৃদ্ধি,https://www.prothomalo.com/sports, bn,no,Ashfak
-বাংলাদেশ অর্থনীতি প্রবৃদ্ধি,https://www.prothomalo.com/world, bn,no,Ashfak
-বাংলাদেশ অর্থনীতি প্রবৃদ্ধি,https://www.prothomalo.com/politics, bn,no,Ashfak
-বাংলাদেশ অর্থনীতি প্রবৃদ্ধি,https://www.prothomalo.com/business/export, bn,yes,Ashfak
-বাংলাদেশ অর্থনীতি প্রবৃদ্ধি,https://www.prothomalo.com/business/investment, bn,yes,Ashfak
+Dhaka education policy,https://www.dhakatribune.com/opinion/op-ed/25119/time-for-the-youth-to-take-the-reins,en,yes,nafi
+Dhaka education policy,https://www.dhakatribune.com/business/economy,en,no,nafi
 
+ঢাকা শিক্ষা নীতি,https://www.dhakatribune.com/opinion/op-ed/25119/time-for-the-youth-to-take-the-reins,en,yes,nafi
+ঢাকা শিক্ষা নীতি,https://www.dhakatribune.com/opinion/op-ed/25801/there-will-be-blood,en,no,nafi
 
-Dhaka education policy,https://www.dhakatribune.com/education,en,yes,Ashfak
-Dhaka education policy,https://www.dhakatribune.com/opinion/op-ed/education-reform,en,yes,Ashfak
-Dhaka education policy,https://www.dhakatribune.com/politics,en,yes,Ashfak
-Dhaka education policy,https://www.dhakatribune.com/business,en,no,Ashfak
-Dhaka education policy,https://www.dhakatribune.com/sports,en,no,Ashfak
-Dhaka education policy,https://www.dhakatribune.com/world,en,no,Ashfak
-Dhaka education policy,https://www.dhakatribune.com/opinion,en,yes,Ashfak
-Dhaka education policy,https://www.dhakatribune.com/bangladesh,en,yes,Ashfak
-Dhaka education policy,https://www.dhakatribune.com/lifestyle,en,no,Ashfak
-Dhaka education policy,https://www.dhakatribune.com/feature,en,no,Ashfak
+flood disaster Bangladesh,https://www.dhakatribune.com/business/economy/25258/political-chaos-forces-investment-plans-to-shelve,en,no,nafi
+flood disaster Bangladesh,https://www.dhakatribune.com/opinion/op-ed/401315/running-on-empty,en,yes,nafi
 
+Bangladesh নির্বাচন crisis,https://www.dhakatribune.com/opinion/op-ed/25801/there-will-be-blood,en,yes,nafi
+Bangladesh নির্বাচন crisis,https://www.dhakatribune.com/business/economy,en,no,nafi
 
-ঢাকা শিক্ষা নীতি,https://www.prothomalo.com/education, bn,yes,Ashfak
-ঢাকা শিক্ষা নীতি,https://www.prothomalo.com/politics, bn,yes,Ashfak
-ঢাকা শিক্ষা নীতি,https://www.prothomalo.com/opinion, bn,yes,Ashfak
-ঢাকা শিক্ষা নীতি,https://www.prothomalo.com/business, bn,no,Ashfak
-ঢাকা শিক্ষা নীতি,https://www.prothomalo.com/sports, bn,no,Ashfak
-ঢাকা শিক্ষা নীতি,https://www.prothomalo.com/world, bn,no,Ashfak
-ঢাকা শিক্ষা নীতি,https://www.prothomalo.com/bangladesh, bn,yes,Ashfak
-ঢাকা শিক্ষা নীতি,https://www.prothomalo.com/lifestyle, bn,no,Ashfak
-ঢাকা শিক্ষা নীতি,https://www.prothomalo.com/feature, bn,no,Ashfak
-ঢাকা শিক্ষা নীতি,https://www.prothomalo.com/campus, bn,yes,Ashfak
+Climate change impact Bangladesh,https://www.dhakatribune.com/opinion/op-ed/401315/running-on-empty,en,yes,nafi
+Climate change impact Bangladesh,https://www.dhakatribune.com/business/economy,en,no,nafi
 
+Renewable energy Bangladesh,https://www.dhakatribune.com/business/economy,en,yes,nafi
+Renewable energy Bangladesh,https://www.dhakatribune.com/opinion/op-ed/25801/there-will-be-blood,en,no,nafi
 
-Bangladesh export to US,https://www.dhakatribune.com/business/economy/24852/export-to-us-sees-4.70pc-growth-in-july-feb,en,yes,Ashfak
-Bangladesh export to US,https://www.dhakatribune.com/business/commerce,en,yes,Ashfak
-Bangladesh export to US,https://www.dhakatribune.com/business,en,yes,Ashfak
-Bangladesh export to US,https://www.dhakatribune.com/opinion,en,no,Ashfak
-Bangladesh export to US,https://www.dhakatribune.com/sports,en,no,Ashfak
-Bangladesh export to US,https://www.dhakatribune.com/world,en,no,Ashfak
-Bangladesh export to US,https://www.dhakatribune.com/politics,en,no,Ashfak
-Bangladesh export to US,https://www.dhakatribune.com/bangladesh,en,yes,Ashfak
-Bangladesh export to US,https://www.dhakatribune.com/business/trade,en,yes,Ashfak
-Bangladesh export to US,https://www.dhakatribune.com/lifestyle,en,no,Ashfak
+Bangladesh export to US,https://www.dhakatribune.com/business/economy/24852/export-to-us-sees-4.70pc-growth-in-july-feb,en,yes,nafi
+Bangladesh export to US,https://www.dhakatribune.com/business/commerce/24963/swiss-business-delegation-due-sunday,en,yes,nafi
+
+COVID-19 vaccination Bangladesh,https://www.dhakatribune.com/business/economy,en,no,nafi
+COVID-19 vaccination Bangladesh,https://www.dhakatribune.com/opinion/op-ed/401315/running-on-empty,en,yes,nafi
+
+Digital Bangladesh progress,https://www.dhakatribune.com/business/economy,en,yes,nafi
+Digital Bangladesh progress,https://www.dhakatribune.com/opinion/op-ed/25801/there-will-be-blood,en,no,nafi
+
+Bangladesh inflation rate,https://www.dhakatribune.com/business/economy,en,yes,nafi
+Bangladesh inflation rate,https://www.dhakatribune.com/opinion/op-ed/401315/running-on-empty,en,no,nafi
+
+Bangladesh foreign investment,https://www.dhakatribune.com/business/commerce/24963/swiss-business-delegation-due-sunday,en,yes,nafi
+Bangladesh foreign investment,https://www.dhakatribune.com/opinion/op-ed/25801/there-will-be-blood,en,no,nafi
+
+Dhaka traffic problem,https://www.dhakatribune.com/opinion/op-ed/401315/running-on-empty,en,yes,nafi
+Dhaka traffic problem,https://www.dhakatribune.com/business/economy,en,no,nafi
+
+বাংলাদেশ কৃষি উন্নয়ন,https://www.dhakatribune.com/business/economy,en,yes,nafi
+বাংলাদেশ কৃষি উন্নয়ন,https://www.dhakatribune.com/opinion/op-ed/25801/there-will-be-blood,en,no,nafi
+
+Bangladesh stock market crash,https://www.dhakatribune.com/business/economy/25196/the-perils-of-the-retail-investors-in-bangladesh,en,yes,nafi
+Bangladesh stock market crash,https://www.dhakatribune.com/opinion/op-ed/25801/there-will-be-blood,en,no,nafi
+
+Bangladesh poverty reduction,https://www.dhakatribune.com/business/economy,en,yes,nafi
+Bangladesh poverty reduction,https://www.dhakatribune.com/opinion/op-ed/401315/running-on-empty,en,no,nafi
+
+Bangladesh election violence,https://www.dhakatribune.com/opinion/op-ed/25801/there-will-be-blood,en,yes,nafi
+Bangladesh election violence,https://www.dhakatribune.com/business/economy,en,no,nafi
+
+Bangladesh banking sector reform,https://www.dhakatribune.com/business/economy,en,yes,nafi
+Bangladesh banking sector reform,https://www.dhakatribune.com/opinion/op-ed/401315/running-on-empty,en,no,nafi

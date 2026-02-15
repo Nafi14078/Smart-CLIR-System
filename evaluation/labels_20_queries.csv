@@ -1,0 +1,45 @@
+query,doc_url,language,relevant,annotator
+
+Bangladesh economy growth,https://www.dhakatribune.com/business/economy,en,yes,Ashfak
+Bangladesh economy growth,https://www.dhakatribune.com/opinion/op-ed/25801/there-will-be-blood,en,no,Ashfak
+Bangladesh economy growth,https://www.dhakatribune.com/business/commerce/en,yes,Ashfak
+
+বাংলাদেশ অর্থনীতি প্রবৃদ্ধি,https://www.prothomalo.com/business,bn,yes,Ashfak
+বাংলাদেশ অর্থনীতি প্রবৃদ্ধি,https://www.prothomalo.com/sports,bn,no,Ashfak
+বাংলাদেশ অর্থনীতি প্রবৃদ্ধি,https://www.prothomalo.com/opinion,bn,no,Ashfak
+
+Dhaka education policy,https://www.dhakatribune.com/education,en,yes,Ashfak
+Dhaka education policy,https://www.dhakatribune.com/opinion/en,yes,Ashfak
+Dhaka education policy,https://www.dhakatribune.com/sports,en,no,Ashfak
+
+ঢাকা শিক্ষা নীতি,https://www.prothomalo.com/education,bn,yes,Ashfak
+ঢাকা শিক্ষা নীতি,https://www.prothomalo.com/politics,bn,yes,Ashfak
+ঢাকা শিক্ষা নীতি,https://www.prothomalo.com/world,bn,no,Ashfak
+
+flood disaster Bangladesh,https://www.prothomalo.com/bangladesh/flood,bn,yes,Ashfak
+flood disaster Bangladesh,https://www.prothomalo.com/sports,bn,no,Ashfak
+flood disaster Bangladesh,https://www.dhakatribune.com/opinion/en,yes,Ashfak
+
+Bangladesh নির্বাচন crisis,https://www.prothomalo.com/politics/election,bn,yes,Ashfak
+Bangladesh নির্বাচন crisis,https://www.dhakatribune.com/opinion/en,yes,Ashfak
+Bangladesh নির্বাচন crisis,https://www.dhakatribune.com/sports,en,no,Ashfak
+
+Climate change impact Bangladesh,https://www.dhakatribune.com/environment/en,yes,Ashfak
+Climate change impact Bangladesh,https://www.prothomalo.com/environment,bn,yes,Ashfak
+Climate change impact Bangladesh,https://www.prothomalo.com/business,bn,no,Ashfak
+
+Renewable energy Bangladesh,https://www.dhakatribune.com/business/en,yes,Ashfak
+Renewable energy Bangladesh,https://www.prothomalo.com/science,bn,yes,Ashfak
+Renewable energy Bangladesh,https://www.dhakatribune.com/sports/en,no,Ashfak
+
+Bangladesh export to US,https://www.dhakatribune.com/business/24852/export,en,yes,Ashfak
+Bangladesh export to US,https://www.dhakatribune.com/business/trade,en,yes,Ashfak
+Bangladesh export to US,https://www.prothomalo.com/business,bn,no,Ashfak
+
+COVID-19 vaccination Bangladesh,https://www.prothomalo.com/health,bn,yes,Ashfak
+COVID-19 vaccination Bangladesh,https://www.dhakatribune.com/health/en,yes,Ashfak
+COVID-19 vaccination Bangladesh,https://www.dhakatribune.com/opinion/en,no,Ashfak
+
+Digital Bangladesh progress,https://www.dhakatribune.com/technology/en,yes,Ashfak
+Digital Bangladesh progress,https://www.prothomalo.com/technology,bn,yes,Ashfak
+Digital Bangladesh progress,https://www.dhakatribune.com/business/en,no,Ashfak
