@@ -2,6 +2,7 @@ from retrieval.lexical_bm25 import LexicalRetriever
 from retrieval.semantic_embedding import SemanticRetriever
 from retrieval.fuzzy_match import FuzzyMatcher
 from query_processing.pipeline import process_query
+from retrieval.hybrid_ranker import HybridRanker
 import json
 import os
 
@@ -30,6 +31,10 @@ def test_query(query):
     lexical = LexicalRetriever()
     semantic = SemanticRetriever()
 
+    print("\n📒 Hybrid Results:")
+    hybrid = HybridRanker()
+    print(hybrid.search(processed["original"], language))
+
     print("\n📘 BM25 Results:")
     print(lexical.search_bm25(processed["original"], language))
 
@@ -40,7 +45,7 @@ def test_query(query):
     print(semantic.search(processed["original"], language))
 
     docs = load_docs(language)
-    fuzzy = FuzzyMatcher(docs)
+    fuzzy = FuzzyMatcher()
 
     print("\n📕 Fuzzy Results:")
     print(fuzzy.search(processed["original"]))
