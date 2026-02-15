@@ -1,73 +1,141 @@
 import json
-import os
-import numpy as np
+from pathlib import Path
 from rank_bm25 import BM25Okapi
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DATA_DIR = os.path.join(BASE_DIR, "data", "processed")
+# ==========================================================
+# CONFIG
+# ==========================================================
 
-EN_PATH = os.path.join(DATA_DIR, "english.json")
-BN_PATH = os.path.join(DATA_DIR, "bangla.json")
+DATA_DIR = Path("data/processed")
+EN_FILE = DATA_DIR / "english_docs.json"
+BN_FILE = DATA_DIR / "bangla_docs.json"
 
+
+# ==========================================================
+# UTILS
+# ==========================================================
+
+def load_json(path):
+    if path.exists():
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return []
+
+
+def tokenize(text):
+    if not text:
+        return []
+    return text.lower().split()
+
+
+# ==========================================================
+# LEXICAL RETRIEVER (BM25 + TF-IDF)
+# ==========================================================
 
 class LexicalRetriever:
+
     def __init__(self):
-        self.en_docs = self.load_json(EN_PATH)
-        self.bn_docs = self.load_json(BN_PATH)
 
-        self.en_corpus = [doc["content"] for doc in self.en_docs]
-        self.bn_corpus = [doc["content"] for doc in self.bn_docs]
+        self.en_docs = load_json(EN_FILE)
+        self.bn_docs = load_json(BN_FILE)
 
-        self.en_tokens = [doc.split() for doc in self.en_corpus]
-        self.bn_tokens = [doc.split() for doc in self.bn_corpus]
+        print(f"EN docs: {len(self.en_docs)}")
+        print(f"BN docs: {len(self.bn_docs)}")
 
-        self.bm25_en = BM25Okapi(self.en_tokens)
-        self.bm25_bn = BM25Okapi(self.bn_tokens)
+        # Extract text
+        self.en_corpus = [doc.get("body", "") for doc in self.en_docs]
+        self.bn_corpus = [doc.get("body", "") for doc in self.bn_docs]
 
-        # TF-IDF vectorizers
+        # ---------- BM25 ----------
+        self.en_tokens = [tokenize(doc) for doc in self.en_corpus if doc]
+        self.bn_tokens = [tokenize(doc) for doc in self.bn_corpus if doc]
+
+        self.bm25_en = BM25Okapi(self.en_tokens) if self.en_tokens else None
+        self.bm25_bn = BM25Okapi(self.bn_tokens) if self.bn_tokens else None
+
+        # ---------- TF-IDF ----------
         self.tfidf_en = TfidfVectorizer()
         self.tfidf_bn = TfidfVectorizer()
 
-        self.tfidf_matrix_en = self.tfidf_en.fit_transform(self.en_corpus)
-        self.tfidf_matrix_bn = self.tfidf_bn.fit_transform(self.bn_corpus)
+        self.en_tfidf_matrix = (
+            self.tfidf_en.fit_transform(self.en_corpus)
+            if self.en_corpus else None
+        )
 
-    def load_json(self, path):
-        if not os.path.exists(path):
-            return []
-        with open(path, "r", encoding="utf-8") as f:
-            return json.load(f)
+        self.bn_tfidf_matrix = (
+            self.tfidf_bn.fit_transform(self.bn_corpus)
+            if self.bn_corpus else None
+        )
 
-    # ---------------- BM25 ----------------
+
+    # ==========================================================
+    # BM25 SEARCH
+    # ==========================================================
+
     def search_bm25(self, query, language="en", top_k=5):
-        tokens = query.split()
 
-        if language == "en":
-            scores = self.bm25_en.get_scores(tokens)
+        query_tokens = tokenize(query)
+
+        if language == "en" and self.bm25_en:
+            scores = self.bm25_en.get_scores(query_tokens)
             docs = self.en_docs
-        else:
-            scores = self.bm25_bn.get_scores(tokens)
+
+        elif language == "bn" and self.bm25_bn:
+            scores = self.bm25_bn.get_scores(query_tokens)
             docs = self.bn_docs
 
-        top_indices = np.argsort(scores)[::-1][:top_k]
-        results = [(docs[i]["title"], scores[i]) for i in top_indices]
+        else:
+            return []
 
-        return results
+        ranked = sorted(
+            zip(docs, scores),
+            key=lambda x: x[1],
+            reverse=True
+        )[:top_k]
 
-    # ---------------- TF-IDF ----------------
+        return [
+            {
+                "title": doc.get("title", ""),
+                "url": doc.get("url", ""),
+                "score": round(float(score), 4)
+            }
+            for doc, score in ranked
+        ]
+
+
+    # ==========================================================
+    # TF-IDF SEARCH
+    # ==========================================================
+
     def search_tfidf(self, query, language="en", top_k=5):
-        if language == "en":
+
+        if language == "en" and self.en_tfidf_matrix is not None:
             query_vec = self.tfidf_en.transform([query])
-            sim = cosine_similarity(query_vec, self.tfidf_matrix_en).flatten()
+            sims = cosine_similarity(query_vec, self.en_tfidf_matrix)[0]
             docs = self.en_docs
-        else:
+
+        elif language == "bn" and self.bn_tfidf_matrix is not None:
             query_vec = self.tfidf_bn.transform([query])
-            sim = cosine_similarity(query_vec, self.tfidf_matrix_bn).flatten()
+            sims = cosine_similarity(query_vec, self.bn_tfidf_matrix)[0]
             docs = self.bn_docs
 
-        top_indices = np.argsort(sim)[::-1][:top_k]
-        results = [(docs[i]["title"], sim[i]) for i in top_indices]
+        else:
+            return []
 
-        return results
+        ranked = sorted(
+            zip(docs, sims),
+            key=lambda x: x[1],
+            reverse=True
+        )[:top_k]
+
+        return [
+            {
+                "title": doc.get("title", ""),
+                "url": doc.get("url", ""),
+                "score": round(float(score), 4)
+            }
+            for doc, score in ranked
+        ]
