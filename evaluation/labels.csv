@@ -1,61 +1,68 @@
 query,doc_url,language,relevant,annotator
-
 Bangladesh economy growth,https://www.dhakatribune.com/business/economy,en,yes,nafi
-Bangladesh economy growth,https://www.dhakatribune.com/business/economy/24753/hold-dialogue-resolve-crisis-fbcci,en,yes,nafi
-Bangladesh economy growth,https://www.dhakatribune.com/business/economy/24852/export-to-us-sees-4.70pc-growth-in-july-feb,en,yes,nafi
+Bangladesh economy growth,https://www.dhakatribune.com/opinion/op-ed/25479/intellectual-property-rights-in-bangladesh,en,no,nafi
+Bangladesh economy growth,https://www.dhakatribune.com/business/commerce/24963/swiss-business-delegation-due-sunday,en,yes,nafi
 Bangladesh economy growth,https://www.dhakatribune.com/opinion/op-ed/25801/there-will-be-blood,en,no,nafi
+Bangladesh economy growth,https://www.dhakatribune.com/business/economy/24753/hold-dialogue-resolve-crisis-fbcci,en,yes,nafi
+Bangladesh economy growth,https://www.dhakatribune.com/opinion/op-ed/25938/where-will-bangladesh-go-without-duty-free-access,en,yes,nafi
+Bangladesh economy growth,https://www.dhakatribune.com/opinion/op-ed/401315/running-on-empty,en,no,nafi
+Bangladesh economy growth,https://www.dhakatribune.com/business/economy/25196/the-perils-of-the-retail-investors-in-bangladesh,en,yes,nafi
+Bangladesh economy growth,https://www.dhakatribune.com/opinion/op-ed/25119/time-for-the-youth-to-take-the-reins,en,no,nafi
+Bangladesh economy growth,https://www.dhakatribune.com/business/economy/24852/export-to-us-sees-4.70pc-growth-in-july-feb,en,yes,nafi
 
-বাংলাদেশ অর্থনীতি প্রবৃদ্ধি,https://www.dhakatribune.com/business/economy,en,yes,nafi
-বাংলাদেশ অর্থনীতি প্রবৃদ্ধি,https://www.dhakatribune.com/business/economy/25196/the-perils-of-the-retail-investors-in-bangladesh,en,yes,nafi
-বাংলাদেশ অর্থনীতি প্রবৃদ্ধি,https://www.dhakatribune.com/opinion/op-ed/401315/running-on-empty,en,no,nafi
+বাংলাদেশ অর্থনীতি প্রবৃদ্ধি,https://www.prothomalo.com/opinion/column/2qp6nomann,bn,yes,nafi
+বাংলাদেশ অর্থনীতি প্রবৃদ্ধি,https://www.banglatribune.com/entertainment/930573/%E0%A6%A8%E0%A7%87%E0%A6%AA%E0%A6%BE%E0%A6%B2%E0%A7%87%E0%A6%B0,bn,no,nafi
+বাংলাদেশ অর্থনীতি প্রবৃদ্ধি,https://www.prothomalo.com/opinion/column/1n31gae01s,bn,yes,nafi
+বাংলাদেশ অর্থনীতি প্রবৃদ্ধি,https://www.prothomalo.com/opinion/column/hhi6dfbooe,bn,yes,nafi
+বাংলাদেশ অর্থনীতি প্রবৃদ্ধি,https://www.prothomalo.com/opinion/column/g4z8wlqzxd,bn,yes,nafi
+বাংলাদেশ অর্থনীতি প্রবৃদ্ধি,https://www.prothomalo.com/opinion/column/in9fqm29ks,bn,yes,nafi
+বাংলাদেশ অর্থনীতি প্রবৃদ্ধি,https://www.prothomalo.com/opinion/column/67wlpjmzpf,bn,no,nafi
+বাংলাদেশ অর্থনীতি প্রবৃদ্ধি,https://www.prothomalo.com/opinion/column/wlv9ka45bj,bn,no,nafi
+বাংলাদেশ অর্থনীতি প্রবৃদ্ধি,https://www.prothomalo.com/entertainment/hollywood/xojkkctu8y,bn,no,nafi
+বাংলাদেশ অর্থনীতি প্রবৃদ্ধি,https://www.prothomalo.com/politics/7s1nxf2qgt,bn,no,nafi
 
-Dhaka education policy,https://www.dhakatribune.com/opinion/op-ed/25119/time-for-the-youth-to-take-the-reins,en,yes,nafi
-Dhaka education policy,https://www.dhakatribune.com/business/economy,en,no,nafi
+Dhaka education policy,https://www.dhakatribune.com/opinion/specials,en,no,nafi
+Dhaka education policy,https://www.dhakatribune.com/business/commerce/24791/bb-bgmea-forms-joint-committee,en,no,nafi
+Dhaka education policy,https://www.dhakatribune.com/business/banks/25869/bankers%E2%80%99-new-pay-scale-faces-fresh-setback,en,no,nafi
+Dhaka education policy,https://www.dhakatribune.com/business/economy/25592/muhith-leaves-tomorrow-for-adb-annual-meet,en,no,nafi
+Dhaka education policy,https://www.dhakatribune.com/opinion/op-ed/25055/loud-and-clear-bangladeshi-youth-choose-their,en,yes,nafi
+Dhaka education policy,https://www.dhakatribune.com/opinion/op-ed/25056/loud-and-clear-bangladeshi-youth-choose-their,en,yes,nafi
+Dhaka education policy,https://www.dhakatribune.com/opinion/op-ed/25057/loud-and-clear-bangladeshi-youth-choose-their,en,yes,nafi
+Dhaka education policy,https://www.dhakatribune.com/opinion/op-ed/25460/continuing-to-hope-for-unrealistic-expectations,en,no,nafi
+Dhaka education policy,https://www.dhakatribune.com/opinion/editorial/25833/follow-the-rule-of-law,en,no,nafi
+Dhaka education policy,https://www.dhakatribune.com/opinion/editorial/24900/bangladesh-as-good-global-citizen,en,no,nafi
 
-ঢাকা শিক্ষা নীতি,https://www.dhakatribune.com/opinion/op-ed/25119/time-for-the-youth-to-take-the-reins,en,yes,nafi
-ঢাকা শিক্ষা নীতি,https://www.dhakatribune.com/opinion/op-ed/25801/there-will-be-blood,en,no,nafi
+flood disaster Bangladesh,https://www.dhakatribune.com/opinion/op-ed/25728/rising-up-out-of-the-ashes,en,yes,nafi
+flood disaster Bangladesh,https://www.dhakatribune.com/opinion/op-ed/25537/lessons-from-the-tragedy,en,yes,nafi
+flood disaster Bangladesh,https://www.dhakatribune.com/opinion/longform/25907/dhaka-will-be-reduced-to-rubble-in-a-major-quake,en,no,nafi
+flood disaster Bangladesh,https://www.dhakatribune.com/opinion/editorial/25390/the-greater-good,en,no,nafi
+flood disaster Bangladesh,https://www.dhakatribune.com/opinion/op-ed/25746/national-pride-more-important-than-saving-lives,en,no,nafi
 
-flood disaster Bangladesh,https://www.dhakatribune.com/business/economy/25258/political-chaos-forces-investment-plans-to-shelve,en,no,nafi
-flood disaster Bangladesh,https://www.dhakatribune.com/opinion/op-ed/401315/running-on-empty,en,yes,nafi
-
-Bangladesh নির্বাচন crisis,https://www.dhakatribune.com/opinion/op-ed/25801/there-will-be-blood,en,yes,nafi
-Bangladesh নির্বাচন crisis,https://www.dhakatribune.com/business/economy,en,no,nafi
-
-Climate change impact Bangladesh,https://www.dhakatribune.com/opinion/op-ed/401315/running-on-empty,en,yes,nafi
-Climate change impact Bangladesh,https://www.dhakatribune.com/business/economy,en,no,nafi
-
-Renewable energy Bangladesh,https://www.dhakatribune.com/business/economy,en,yes,nafi
-Renewable energy Bangladesh,https://www.dhakatribune.com/opinion/op-ed/25801/there-will-be-blood,en,no,nafi
+Climate change impact Bangladesh,https://www.dhakatribune.com/opinion/editorial/24979/new-voice-for-a-changing-bangladesh,en,yes,nafi
+Climate change impact Bangladesh,https://www.dhakatribune.com/opinion/editorial/401252/breathing-easy-for-the-future,en,yes,nafi
+Climate change impact Bangladesh,https://www.dhakatribune.com/opinion/longform,en,yes,nafi
 
 Bangladesh export to US,https://www.dhakatribune.com/business/economy/24852/export-to-us-sees-4.70pc-growth-in-july-feb,en,yes,nafi
-Bangladesh export to US,https://www.dhakatribune.com/business/commerce/24963/swiss-business-delegation-due-sunday,en,yes,nafi
-
-COVID-19 vaccination Bangladesh,https://www.dhakatribune.com/business/economy,en,no,nafi
-COVID-19 vaccination Bangladesh,https://www.dhakatribune.com/opinion/op-ed/401315/running-on-empty,en,yes,nafi
-
-Digital Bangladesh progress,https://www.dhakatribune.com/business/economy,en,yes,nafi
-Digital Bangladesh progress,https://www.dhakatribune.com/opinion/op-ed/25801/there-will-be-blood,en,no,nafi
+Bangladesh export to US,https://www.thedailystar.net/business/global-economy/news/govt-scrap-tariffs-4500-us-products-4104101,en,yes,nafi
+Bangladesh export to US,https://www.dhakatribune.com/business/commerce/25707/bangladesh-urges-eu-not-impose-harsh-trade,en,yes,nafi
 
 Bangladesh inflation rate,https://www.dhakatribune.com/business/economy,en,yes,nafi
-Bangladesh inflation rate,https://www.dhakatribune.com/opinion/op-ed/401315/running-on-empty,en,no,nafi
+Bangladesh inflation rate,https://www.dhakatribune.com/business/economy/25196/the-perils-of-the-retail-investors-in-bangladesh,en,yes,nafi
 
-Bangladesh foreign investment,https://www.dhakatribune.com/business/commerce/24963/swiss-business-delegation-due-sunday,en,yes,nafi
-Bangladesh foreign investment,https://www.dhakatribune.com/opinion/op-ed/25801/there-will-be-blood,en,no,nafi
+Bangladesh foreign investment,https://www.dhakatribune.com/business/economy/25258/political-chaos-forces-investment-plans-to-shelve,en,yes,nafi
+Bangladesh foreign investment,https://www.dhakatribune.com/business/banks/25521/bb-okays-25m-foreign-credit,en,yes,nafi
 
-Dhaka traffic problem,https://www.dhakatribune.com/opinion/op-ed/401315/running-on-empty,en,yes,nafi
-Dhaka traffic problem,https://www.dhakatribune.com/business/economy,en,no,nafi
+Bangladesh stock market crash,https://www.dhakatribune.com/business/stock/25520/stocks-edge-lower-amid-volatility,en,yes,nafi
+Bangladesh stock market crash,https://www.dhakatribune.com/business/stock/25106/stocks-end-lower,en,yes,nafi
 
-বাংলাদেশ কৃষি উন্নয়ন,https://www.dhakatribune.com/business/economy,en,yes,nafi
-বাংলাদেশ কৃষি উন্নয়ন,https://www.dhakatribune.com/opinion/op-ed/25801/there-will-be-blood,en,no,nafi
-
-Bangladesh stock market crash,https://www.dhakatribune.com/business/economy/25196/the-perils-of-the-retail-investors-in-bangladesh,en,yes,nafi
-Bangladesh stock market crash,https://www.dhakatribune.com/opinion/op-ed/25801/there-will-be-blood,en,no,nafi
-
+Bangladesh poverty reduction,https://www.dhakatribune.com/opinion/op-ed/25143/a-road-map-toward-achieving-nutrition-for-all,en,yes,nafi
 Bangladesh poverty reduction,https://www.dhakatribune.com/business/economy,en,yes,nafi
-Bangladesh poverty reduction,https://www.dhakatribune.com/opinion/op-ed/401315/running-on-empty,en,no,nafi
 
-Bangladesh election violence,https://www.dhakatribune.com/opinion/op-ed/25801/there-will-be-blood,en,yes,nafi
-Bangladesh election violence,https://www.dhakatribune.com/business/economy,en,no,nafi
+Bangladesh election violence,https://www.thedailystar.net/opinion/views/news/credible-election-the-reform-journey-commences-now-4105491,en,yes,nafi
+Bangladesh election violence,https://www.dhakatribune.com/opinion/editorial/25181/what-s-good-for-the-goose,en,yes,nafi
 
-Bangladesh banking sector reform,https://www.dhakatribune.com/business/economy,en,yes,nafi
-Bangladesh banking sector reform,https://www.dhakatribune.com/opinion/op-ed/401315/running-on-empty,en,no,nafi
+Bangladesh banking sector reform,https://www.dhakatribune.com/business/economy/25899/govt-for-tk13bn-bb-refinance-fund,en,yes,nafi
+Bangladesh banking sector reform,https://www.dhakatribune.com/business/economy/25092/bb-plans-financial-literacy-drive-for-school,en,yes,nafi
+
+Bangladesh garment industry,https://www.dhakatribune.com/opinion/op-ed/25463/the-true-face-of-the-garment-industry,en,yes,nafi
+Bangladesh garment industry,https://www.dhakatribune.com/business/commerce/25350/bgmea-suspends-membership-of-five-garment,en,yes,nafi
